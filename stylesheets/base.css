@@ -1,3 +1,9 @@
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
 /* Reset Navbar */
 a {
     text-decoration: none !important

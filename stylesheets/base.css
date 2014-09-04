@@ -1,11 +1,4 @@
 /* Reset Navbar */
-
-
-html, body {
-    margin: 0;
-    padding: 0;
-}
-
 a {
     text-decoration: none !important
     }
@@ -14,10 +7,10 @@ a {
     margin-bottom: 0 !important
     }
 
-.wrapper {
-    min-height: 650px
-    width: 100%;
-    }
+
+#main {
+    min-height: 800px;
+}
 
 /* Contact */
 .icon {
@@ -76,24 +69,20 @@ a {
     background-color: white;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
     filter: alpha(opacity=50);
-    opacity: 0.5;
+    opacity: 0.8;
     color: black
     }
 
-/* Experience */
+/* Experience  Section */
 .experience {
     padding-left: 30%
     }
 
 .experience-header {
-/*    background-color: #2980b9;
     margin: 0 0 75px 0;
-    padding: 180px 0;*/
+    padding: 85px 0 85px 0;
+    border-bottom: 1px solid #666;
 }
-
-/*h1.experience-header {
-    color: white;
-}*/
 
 ul.experience.list-unstyled li i {
     margin-right: 15px;
@@ -136,8 +125,9 @@ ul.experience.list-unstyled li i {
 
 /* Footer */
 .footer {
-    padding-top: 25px;
+    background-color: #f8f8f8;
+    border-top: 1px solid #e7e7e7;
+    padding: 25px 0 15px 0;
     margin-top: 150px !important;
     margin: 0 auto;
-    width: 95%
     }

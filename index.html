@@ -10,6 +10,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <base href="/">
   <!-- SCROLLS -->
+  <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
   <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   <link type="text/css" href="stylesheets/base.css" rel="stylesheet">
@@ -37,22 +38,20 @@
         <li>
           <a href="/"><i class="fa fa-home"></i> Home</a>
         </li>
-        <li><a href="/work"><i class="fa fa-code"></i> Work</a></li>
+        <li><a href="work"><i class="fa fa-code"></i> Work</a></li>
         <li>
-          <a href="/about"><i class="fa fa-child"></i> About</a>
+          <a href="about"><i class="fa fa-child"></i> About</a>
         </li>
         <li>
-          <a href="/contact"><i class="fa fa-envelope"></i> Contact</a>
+          <a href="contact"><i class="fa fa-envelope"></i> Contact</a>
         </li>
       </ul>
     </div>
   </nav>
 
-  <div id="main" class="wrapper">
+  <div id="main">
     <div ng-view>
-      <!-- Templates rendered here -->
     </div>
-    
   </div>
 
   <div class="footer">

@@ -6,11 +6,11 @@ body {
 
 /* Reset Navbar */
 a {
-    text-decoration: none !important
+    text-decoration: none !important;
     }
 
 .navbar {
-    margin-bottom: 0 !important
+    margin-bottom: 0 !important;
     }
 
 
@@ -24,7 +24,7 @@ a {
     -moz-transition: color 0.5s ease;
     -o-transition: color 0.5s ease;
     -webkit-transition: color 0.5s ease;
-    transition: color 0.5s ease
+    transition: color 0.5s ease;
     }
 
 .icon:hover {
@@ -45,15 +45,15 @@ a {
 
 .marketing-wrap {
     width: 45%;
-    margin: 0 auto
+    margin: 0 auto;
     }
 
 .marketing h1 {
-    padding-top: 250px
+    padding-top: 250px;
     }
 
 .marketing h2 {
-    margin-bottom: 50px
+    margin-bottom: 50px;
     }
 
 .button {
@@ -75,13 +75,13 @@ a {
     background-color: white;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
     filter: alpha(opacity=50);
-    opacity: 0.8;
-    color: black
+    opacity: 0.95;
+    color: black;
     }
 
 /* Experience  Section */
 .experience {
-    padding-left: 30%
+    padding-left: 30%;
     }
 
 .experience-header {
@@ -92,7 +92,7 @@ a {
 
 ul.experience.list-unstyled li i {
     margin-right: 15px;
-    width: 10px
+    width: 10px;
     }
 
 .resume-button {
@@ -111,22 +111,22 @@ ul.experience.list-unstyled li i {
 
 .resume-button p {
     color: black;
-    padding: 20px 0 15px 0
+    padding: 20px 0 15px 0;
     }
 
 .resume-button:hover {
     background-color: black;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
     filter: alpha(opacity=75);
-    opacity: 0.75
+    opacity: 0.95;
     }
 
 .resume-button:hover p {
-    color: white
+    color: white;
     }
 
 .resume p:hover {
-    color: black !important
+    color: black !important;
     }
 
 /* Footer */

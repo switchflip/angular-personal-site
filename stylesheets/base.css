@@ -1,4 +1,11 @@
 /* Reset Navbar */
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 a {
     text-decoration: none !important
     }
@@ -9,6 +16,7 @@ a {
 
 .wrapper {
     min-height: 650px
+    width: 100%;
     }
 
 /* Contact */
@@ -31,7 +39,7 @@ a {
     background-repeat: none;
     -webkit-background-size: cover;
     background-size: cover;
-    height: 850px;
+    height: 800px;
     color: #FFF;
     margin-top: -100px
     }
@@ -76,6 +84,16 @@ a {
 .experience {
     padding-left: 30%
     }
+
+.experience-header {
+/*    background-color: #2980b9;
+    margin: 0 0 75px 0;
+    padding: 180px 0;*/
+}
+
+/*h1.experience-header {
+    color: white;
+}*/
 
 ul.experience.list-unstyled li i {
     margin-right: 15px;

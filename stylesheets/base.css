@@ -1,0 +1,125 @@
+/* Reset Navbar */
+a {
+    text-decoration: none !important
+    }
+
+.navbar {
+    margin-bottom: 0 !important
+    }
+
+.wrapper {
+    min-height: 650px
+    }
+
+/* Contact */
+.icon {
+    color: #666;
+    -moz-transition: color 0.5s ease;
+    -o-transition: color 0.5s ease;
+    -webkit-transition: color 0.5s ease;
+    transition: color 0.5s ease
+    }
+
+.icon:hover {
+    color: #4B4A4A
+    }
+
+/* Homepage Marketing Graphic */
+.marketing {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url(../assets/queen-west.jpg);
+    background-attachment: fixed;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 850px;
+    color: #FFF;
+    margin-top: -100px
+    }
+
+.marketing-wrap {
+    width: 45%;
+    margin: 0 auto
+    }
+
+.marketing h1 {
+    padding-top: 250px
+    }
+
+.marketing h2 {
+    margin-bottom: 50px
+    }
+
+.button {
+    margin: 0 auto;
+    padding: 19px 25px 10px 25px;
+    border: 1px solid white;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    color: white;
+    font-weight: 300;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease
+    }
+
+.button:hover {
+    background-color: white;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+    color: black
+    }
+
+/* Experience */
+.experience {
+    padding-left: 30%
+    }
+
+ul.experience.list-unstyled li i {
+    margin-right: 15px;
+    width: 10px
+    }
+
+.resume-button {
+    width: 50%;
+    margin: 0 auto;
+    clear: both;
+    border: 1px solid black;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease
+    }
+
+.resume-button p {
+    color: black;
+    padding: 20px 0 15px 0
+    }
+
+.resume-button:hover {
+    background-color: black;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+    filter: alpha(opacity=75);
+    opacity: 0.75
+    }
+
+.resume-button:hover p {
+    color: white
+    }
+
+.resume p:hover {
+    color: black !important
+    }
+
+/* Footer */
+.footer {
+    padding-top: 25px;
+    margin-top: 150px !important;
+    margin: 0 auto;
+    width: 95%
+    }

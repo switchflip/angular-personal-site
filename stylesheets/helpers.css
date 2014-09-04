@@ -1,0 +1,20 @@
+/* Helper Classes */
+.bottom-margin {
+    margin-bottom: 50px
+    }
+
+.top-margin {
+    margin-top: 50px
+    }
+
+.img-responsive {
+    margin: 0 auto
+    }
+
+.icon-padding {
+    padding: 3.5%
+    }
+
+.no-decoration {
+    text-decoration: none !important
+    }

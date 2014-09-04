@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<!-- define angular app -->
+<html ng-app="personalSite">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Thomas Berry - Frontend Developer</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <base href="/">
+  <!-- SCROLLS -->
+  <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link type="text/css" href="stylesheets/base.css" rel="stylesheet">
+  <link href="stylesheets/typography.css" rel="stylesheet">
+  <link type="text/css" href="stylesheets/helpers.css" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Roboto:100|Roboto:300" rel="stylesheet" type="text/css">
+
+
+  <!-- SPELLS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.10/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.10/angular-route.js"></script>
+  <script src="script.js"></script>
+</head>
+
+<!-- define angular controller -->
+<body ng-controller="mainController">
+
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="/">Thomas Berry</a>
+      </div>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a href="/"><i class="fa fa-home"></i> Home</a>
+        </li>
+        <li><a href="/work"><i class="fa fa-code"></i> Work</a></li>
+        <li>
+          <a href="/about"><i class="fa fa-child"></i> About</a>
+        </li>
+        <li>
+          <a href="/contact"><i class="fa fa-envelope"></i> Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div id="main" class="wrapper">
+    <div ng-view>
+      <!-- Templates rendered here -->
+    </div>
+    
+  </div>
+
+  <div class="footer">
+    <p class="text-muted text-center">Designed and Created by Thomas Berry &copy; 2014</p>
+  </div>
+</body>
+
+</html>

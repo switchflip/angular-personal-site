@@ -1,3 +1,9 @@
+html {
+    width: 100%;
+    margin: 0 !important;
+    padding: 0 !important
+}
+
 body {
     margin: 0 !important;
     padding: 0 !important;
@@ -150,3 +156,19 @@ footer {
     border-color: #252525;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff222222', endColorstr='#ff111111', GradientType=0);
 }
+
+
+@media (max-width: 767px) {
+    p {
+        margin: 15px;
+    } 
+    .button-para {
+        margin: 0;
+    }
+    img {
+        width: 80%
+    }
+}
+
+
+

@@ -91,22 +91,6 @@ a {
     color: black;
     }
 
-/* Experience  Section */
-.experience {
-    padding-left: 30%;
-    }
-
-.experience-header {
-    margin: 0 0 75px 0;
-    padding: 85px 0 85px 0;
-    border-bottom: 1px solid #666;
-}
-
-ul.experience.list-unstyled li i {
-    margin-right: 15px;
-    width: 10px;
-    }
-
 .resume-button {
     width: 50%;
     margin: 0 auto;
@@ -157,18 +141,7 @@ footer {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff222222', endColorstr='#ff111111', GradientType=0);
 }
 
-
-@media (max-width: 767px) {
-    p {
-        margin: 15px;
-    } 
-    .button-para {
-        margin: 0;
-    }
-    img {
-        width: 80%
-    }
+.progress.active .progress-bar {
+    -webkit-transition: none !important;
+    transition: none !important;
 }
-
-
-

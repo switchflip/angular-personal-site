@@ -11,14 +11,10 @@ personalSite.config(function($stateProvider, $urlRouterProvider) {
     // $urlRouterProvider.otherwise('/');
     
     $stateProvider
-        
-        // HOME STATES AND NESTED VIEWS ========================================
         .state('home', {
             url: '/',
             templateUrl: 'pages/home.html'
         })
-        
-        // ABOUT PAGE AND MULTIPLE NAMED VIEWS =================================
         .state('work', {
             url: '/work',
             templateUrl: 'pages/work.html'

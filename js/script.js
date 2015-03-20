@@ -15,9 +15,9 @@ personalSite.config(function($stateProvider, $urlRouterProvider) {
             url: '/',
             templateUrl: 'pages/home.html'
         })
-        .state('work', {
-            url: '/work',
-            templateUrl: 'pages/work.html'
+        .state('about', {
+            url: '/about',
+            templateUrl: 'pages/about.html'
         })
         .state('contact', {
             url: '/contact',
